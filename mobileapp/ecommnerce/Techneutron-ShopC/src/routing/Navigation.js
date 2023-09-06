@@ -6,7 +6,8 @@ import Login from '../login/Login'
 import Home from '../secured/home/Secured'
 import ThemeSelector from '../theme/themeSelector';
 import Header from '../secured/header/Header';
-import Cart from '../secured/cart/Cart';
+import ProductDetail from '../secured/home/ProductDetail';
+import HeaderDetail from '../secured/header/HeaderDetail';
 
 const Navigation = () => {
   const { theme } = useTheme();
@@ -27,7 +28,7 @@ const Navigation = () => {
       <Stack.Navigator>
         <Stack.Screen name="Login" options={{title: 'Login' ,headerRight: () => (<ThemeSelector />)}} component={Login} />
         <Stack.Screen name="Home" options={{ title: 'Home',header:()=>(<Header />)}} component={Home} />
-        <Stack.Screen name="Cart" options={{ title: 'Cart',header:()=>(<Header />)}} component={Cart} />
+        <Stack.Screen name="ProductDetail" options={{headerShown:false,}} component={ProductDetail} />
       </Stack.Navigator>
     </NavigationContainer>
   );

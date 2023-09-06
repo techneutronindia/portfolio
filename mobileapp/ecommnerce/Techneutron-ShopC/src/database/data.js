@@ -80,18 +80,14 @@ const data = [
       image: require('../assets/lap.jpg'),
       discount:"30%",
       instockout:" Out of Stock",
-
-    
     },
     {
-      id: 9,
+      id: 10,
       name: 'MacBook',
       price: '$130',
       image: require('../assets/mac.jpg'),
       discount:"20%",
       instock:"Stock",
-
-    
     },
   ];
   

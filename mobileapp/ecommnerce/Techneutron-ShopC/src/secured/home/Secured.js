@@ -1,12 +1,12 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
-import ProductList from './ProductList';
+import ProductsList from './ProductsList';
 
 const Secured = ({ navigation }) => {
 
     return (
         <ScrollView>
-            <ProductList />
+            <ProductsList />
         </ScrollView>
     );
 }
