@@ -2,17 +2,16 @@ import { ThemeProvider, createTheme } from '@rneui/themed';
 
 export default theme = createTheme({
   lightColors: {
-    // primary: '#e7e7e8',
-    primary: '#D6594F',
-    secondary: '#666',
-    background: '#fff',
-    text: '#333',
+    primary: '#dd4b3f',
+    secondary: '#222325',
+    background: '#ecf0ee',
+    text: '#1c1b21',
   },
   darkColors: {
-    primary: '#252525',
+    primary: '#1c1b21',
     secondary: '#999',
-    // background: '#121212',
-    background: '#000',
+    background: '#121212',
+    background: '#23232d',
     text: '#fff',
   },
   fonts: {
