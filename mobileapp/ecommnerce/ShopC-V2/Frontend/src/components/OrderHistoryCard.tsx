@@ -46,7 +46,7 @@ const OrderHistoryCard: React.FC<OrderHistoryCardProps> = ({
             <OrderItemCard
               type={data.type}
               name={data.name}
-              imagelink_square={data.imagelink_square}
+              imagelink_square={{uri:data.imagelink_square}}
               special_ingredient={data.special_ingredient}
               prices={data.prices}
               ItemPrice={data.ItemPrice}

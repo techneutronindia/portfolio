@@ -85,6 +85,7 @@ const OrderHistoryScreen = ({navigation}: any) => {
                 buttonPressHandler();
               }}>
               <Text style={styles.ButtonText}>Download</Text>
+              
             </TouchableOpacity>
           ) : (
             <></>
